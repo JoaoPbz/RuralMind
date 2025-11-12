@@ -1,1 +1,1 @@
-# RuralMindV2
+# RuralMind
