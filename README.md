@@ -1,1 +1,20 @@
 # RuralMind
+
+Sistema de gerenciamento de vendas e estoque de implementos agrícolas, desenvolvido em **Java (Swing)** com **PostgreSQL** como banco de dados.
+
+## 💻 Tecnologias utilizadas
+- Java 17+
+- Swing (interface gráfica)
+- PostgreSQL
+- JDBC
+- Git/GitHub
+
+## 👥 Equipe de desenvolvimento
+- João Pedro Pereira Barpp  
+- Everton Nathan Dias De Oliveira  
+- Douglas Gabriel Sierota  
+
+## 🧩 Descrição geral
+O sistema permite o gerenciamento de **clientes, fornecedores, máquinas e vendas**, oferecendo funcionalidades para controle de estoque e geração de relatórios.
+
+
