@@ -10,7 +10,7 @@ Sistema de gerenciamento de vendas e estoque de implementos agrícolas, desenvol
 - Git/GitHub
 
 ## 👥 Equipe de desenvolvimento
-- João Pedro Pereira Barpp  
+- João Pedro Pereira Barpp (https://github.com/JoaoPbz) 
 - Everton Nathan Dias De Oliveira  
 - Douglas Gabriel Sierota  
 
