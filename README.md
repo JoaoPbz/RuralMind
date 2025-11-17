@@ -12,7 +12,7 @@ Sistema de gerenciamento de vendas e estoque de implementos agrícolas, desenvol
 ##  Equipe de desenvolvimento
 - João Pedro Pereira Barpp (https://github.com/JoaoPbz) 
 - Everton Nathan Dias De Oliveira (https://github.com/Evertondias2025)
-- Douglas Gabriel Sierota  
+- Douglas Gabriel Sierota (https://github.com/DouglasSierota)
 
 ##  Descrição geral
 O sistema permite o gerenciamento de **clientes, fornecedores, máquinas e vendas**, oferecendo funcionalidades para controle de estoque e geração de relatórios de uma empresa Agrícola.
