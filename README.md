@@ -15,6 +15,6 @@ Sistema de gerenciamento de vendas e estoque de implementos agrícolas, desenvol
 - Douglas Gabriel Sierota (https://github.com/DouglasSierota)
 
 ##  Descrição geral
-O sistema permite o gerenciamento de **clientes, fornecedores, máquinas e vendas**, oferecendo funcionalidades para controle de estoque e geração de relatórios de uma empresa Agrícola.
+O sistema permite o gerenciamento de **clientes, fornecedores, máquinas e vendas**, oferecendo a melhor funcionalidades para controle de estoque e geração de relatórios de uma empresa Agrícola.
 
 
