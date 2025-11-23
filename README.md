@@ -21,7 +21,7 @@ Sistema de gerenciamento de vendas, estoque e cadastro de implementos agrícolas
 ---
 
 ## 📌 Descrição geral
-O **RuralMind ** permite o gerenciamento completo de:
+O RuralMind  permite o gerenciamento completo de:
 
 - Clientes  
 - Fornecedores  
