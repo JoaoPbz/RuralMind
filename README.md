@@ -1,6 +1,6 @@
 # 🌾 RuralMind 
 
-Sistema de gerenciamento de vendas, estoque e cadastro de implementos agrícolas, desenvolvido em **Java (Swing)** com **PostgreSQL** como banco de dados.
+Sistema de gestão de vendas, estoque e cadastro de implementos agrícolas, desenvolvido em **Java (Swing)** com **PostgreSQL** como banco de dados.
 
 ---
 
