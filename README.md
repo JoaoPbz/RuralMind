@@ -127,7 +127,7 @@ Mostra o que o sistema faz, incluindo cadastros, vendas, relatórios, permissõe
 
 Mostra o fluxo operacional das funções principais:
 cadastro, login, venda, atualização de estoque e backup.
-Representa como cada operação acontece internamente.
+Representa Login e venda.
 
 ## 📌 Diagrama de Estados
 
