@@ -1,38 +1,113 @@
-# 🌾 RuralMind 
+🌾 RuralMind 
+Sistema de Gestão de Implementos Agrícolas
 
-Sistema de gestão de vendas, estoque e cadastro de implementos agrícolas, desenvolvido em **Java (Swing)** com **PostgreSQL** como banco de dados.
 
----
+📘 Visão Geral
 
-## 🚀 Tecnologias utilizadas
-- Java 17+
-- Swing (JFrame)
-- PostgreSQL
-- JDBC
-- Git/GitHub
+O RuralMind é um sistema desktop destinado à gestão de vendas e estoque de implementos agrícolas.
+Ele integra conteúdos das disciplinas de:
 
----
+Programação II (Java + Swing)
 
-## 👨‍💻 Equipe de desenvolvimento
-- João Pedro Pereira Barpp — https://github.com/JoaoPbz  
-- Everton Nathan Dias De Oliveira — https://github.com/Evertondias2025  
-- Douglas Gabriel Sierota — https://github.com/DouglasSierota  
+Banco de Dados II (PostgreSQL)
 
----
+Engenharia de Software
 
-## 📌 Descrição geral
-O RuralMind  permite o gerenciamento completo de:
+O sistema permite organizar clientes, fornecedores, máquinas, vendedores e vendas, mantendo controle seguro de estoque, auditoria e permissões de usuários.
 
-- Clientes  
-- Fornecedores  
-- Máquinas  
-- Usuários  
-- Vendas  
-- Estoque  
-- Relatórios  
-- Auditoria  
-- Backup e restauração  
+🚜 Funcionalidades Principais
 
-O sistema opera **totalmente offline**, garantindo maior estabilidade e independência de rede.
+Autenticação com perfis admin e vendedor
 
+Cadastro completo:
+
+Clientes
+
+Fornecedores
+
+Vendedores
+
+Máquinas
+
+Controle automático de estoque
+
+Sistema completo de vendas
+
+Relatórios internos
+
+Backup e restauração integrados ao PostgreSQL
+
+Auditoria automática de operações
+
+Herança, encapsulamento e polimorfismo aplicados
+
+Interface gráfica desenvolvida com Swing
+
+🛠️ Tecnologias Utilizadas
+
+Java 17+
+
+Swing
+
+PostgreSQL 
+
+JDBC
+
+DBeaver
+
+Visual Paradigm
+
+Git / GitHub
+
+🧱 Arquitetura do Sistema
+
+Organizado em camadas independentes:
+
+Model – classes que representam entidades do sistema
+
+DAO – operações SQL e integração via JDBC
+
+View – todas as telas Swing
+
+Util – classes auxiliares (BackupBD, ConexaoBD, etc.)
+
+📁 Estrutura do Projeto
+/Banco II
+    ├── /BackupBancoAlimentado
+    │       └── BackupRuralmind.sql - Backup com alguns dados adicionados ao banco caso queiram testar
+    │
+    ├──/ScriptsSeparados
+    │      ├──TriggersProcedures.sql
+    │      ├──UsuariosPermissões.sql  -- Scripts isolados para visualização somente
+    │      └──ViewsIndices.sql
+    │
+    ├──Crição do banco completa.sql -- Script Definitivo com criação de banco e todos os scripts da pasta acima inclusos para facil execução
+    ├──Diagrama Relacional.vpp
+    └──Diagrama Relacional.png
+    
+/Engenharia de Software
+    ├── Caso_de_Uso.pdf
+    ├── Atividades.pdf
+    ├── Estados.pdf
+    ├── Sequencia.pdf
+    ├── Classes.pdf
+    ├── DER.pdf
+    └── diagramas_imagens
+        ├── caso_de_uso.png
+        ├── atividades.png
+        ├── estados.png
+        ├── sequencia.png
+        ├── classes.png
+        └── der.png
+
+/Programação II
+    ├── Sistema
+    │   ├── src
+    │   ├── bin
+    │   ├── lib
+    │   └── (outros arquivos e diretórios do projeto)
+    └── JavaDoc
+        └── javadoc.zip
+
+README.md
 
