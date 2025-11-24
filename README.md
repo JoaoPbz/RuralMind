@@ -309,3 +309,35 @@ Vendedor → acesso limitado
 Estoque atualiza automaticamente após as vendas
 
 Backup e restauração funcionam direto pelo sistema via PostgreSQL (somente admins)
+
+# 🧪 Princípios de POO Aplicados
+
+## Herança:
+Pessoa sendo base para Cliente e Usuario
+
+## Encapsulamento:
+Atributos privados + getters e setters
+
+## Polimorfismo:
+Métodos sobrescritos e comportamentos sob demanda
+
+# 👨‍💻 Equipe de Desenvolvimento
+
+João Pedro Pereira Barpp
+
+Everton Nathan Dias de Oliveira
+
+Douglas Gabriel Sierota
+
+# 📝 Considerações Finais
+
+O RuralMind é um sistema robusto, bem estruturado e amplamente documentado.
+Ele atende integralmente aos requisitos de:
+
+Engenharia de Software
+
+Banco de Dados II
+
+Programação II
+
+O projeto apresenta modelagem completa, banco sólido, código organizado e documentação profissional — demonstrando domínio das áreas envolvidas e integração entre as disciplinas.
