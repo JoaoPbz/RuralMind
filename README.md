@@ -236,4 +236,76 @@ chaves estrangeiras
 
 Funções PL/pgSQL auxiliares presentes no script principal.
 
+# 🚀 Execução do Sistema (Modo de Uso)
 
+Essa é a parte mais importante para rodar corretamente em qualquer máquina:
+
+## 1️⃣ Instalar o PostgreSQL 17
+
+Instale normalmente
+
+Garanta que pg_dump e psql estão disponíveis
+
+Anote a senha do usuário postgres
+
+## 2️⃣ Criar o banco e executar o script
+
+Abra DBeaver ou PgAdmin
+
+Crie o banco ruralmind
+
+Execute o script "Criação do banco completa"
+
+## 3️⃣ Configurar o Java
+
+--ConexaoBD.java
+
+--BackupBD.java
+
+Ajustar:
+
+    usuário
+
+    senha
+
+    host
+
+    porta
+
+    nome do banco
+
+
+Ajustar os caminhos:
+
+C:/Program Files/PostgreSQL/17/bin/pg_dump.exe
+C:/Program Files/PostgreSQL/17/bin/psql.exe
+
+
+Sem isso,backup/restauração não funcionam
+
+## 4️⃣ Executar o sistema
+
+Executar a classe:
+
+src/view/TelaLogin.java (inicio do fluxo do sistema)
+
+## 5️⃣ Primeiro acesso (importantíssimo)
+
+Se a tabela usuario estiver vazia, o sistema cria automaticamente:
+
+Login: admin
+
+Senha: 123
+
+
+Isso evita erro na primeira execução e permite acessar a tela principal para restaurar backups.
+
+## 6️⃣ Uso geral
+
+Admin → acesso total
+
+Vendedor → acesso limitado
+
+Estoque atualiza automaticamente após as vendas
+
+Backup e restauração funcionam direto pelo sistema via PostgreSQL (somente admins)
