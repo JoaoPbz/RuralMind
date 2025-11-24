@@ -292,7 +292,7 @@ Executar a classe:
 
 src/view/TelaLogin.java (inicio do fluxo do sistema)
 
-## 5️⃣ Primeiro acesso (importantíssimo)
+## 5️⃣ Primeiro acesso (importante)
 
 Se a tabela usuario estiver vazia, o sistema cria automaticamente:
 
@@ -302,6 +302,8 @@ Senha: 123
 
 
 Isso evita erro na primeira execução e permite acessar a tela principal para restaurar backups.
+
+Caso queira ao acessar o sistema com esse usúario pode-se realizar o restore do backup alimentado,disponibilizado em Banco II
 
 ## 6️⃣ Uso geral
 
