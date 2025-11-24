@@ -117,3 +117,53 @@ Util – classes auxiliares (BackupBD, ConexaoBD, etc.)
 
 README.md
 ```
+# 🧩 Documentação de Engenharia de Software
+## 📌 Diagrama de Caso de Uso
+
+Representa todas as funcionalidades acessíveis ao usuário (admin e vendedor).
+Mostra o que o sistema faz, incluindo cadastros, vendas, relatórios, permissões e backup.
+
+## 📌 Diagrama de Atividades
+
+Mostra o fluxo operacional das funções principais:
+cadastro, login, venda, atualização de estoque e backup.
+Representa como cada operação acontece internamente.
+
+## 📌 Diagrama de Estados
+
+Foca nos estados possíveis da máquina, como:
+
+cadastrada
+
+disponível
+
+indisponível
+
+vendida
+
+excluída logicamente
+
+Mostra as mudanças de estado ao longo do uso.
+
+## 📌 Diagrama de Sequência
+
+Mostra a comunicação entre classes e objetos durante processos, como:
+
+Ex:Venda
+
+Login → Validação → Tela Principal
+
+Venda → Atualização de estoque → Registro no banco
+
+Cadastro → DAO → Banco de dados
+
+## 📌 Diagrama de Classes
+
+Representa a estrutura orientada a objetos:
+classes, atributos, métodos, associações, cardinalidades e herança:
+
+Pessoa → Cliente e Usuario
+
+## 📌 Modelo Entidade-Relacionamento (DER)
+
+Mostra a estrutura lógica do banco, com tabelas, chaves primárias/estrangeiras e relacionamentos.
