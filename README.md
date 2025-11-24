@@ -1,8 +1,8 @@
-🌾 RuralMind 
+# 🌾 RuralMind 
 Sistema de Gestão de Implementos Agrícolas
 
 
-📘 Visão Geral
+## 📘 Visão Geral
 
 O RuralMind é um sistema desktop destinado à gestão de vendas e estoque de implementos agrícolas.
 Ele integra conteúdos das disciplinas de:
@@ -15,7 +15,7 @@ Engenharia de Software
 
 O sistema permite organizar clientes, fornecedores, máquinas, vendedores e vendas, mantendo controle seguro de estoque, auditoria e permissões de usuários.
 
-🚜 Funcionalidades Principais
+## 🚜 Funcionalidades Principais
 
 Autenticação com perfis admin e vendedor
 
@@ -43,7 +43,7 @@ Herança, encapsulamento e polimorfismo aplicados
 
 Interface gráfica desenvolvida com Swing
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 Java 17+
 
@@ -59,7 +59,7 @@ Visual Paradigm
 
 Git / GitHub
 
-🧱 Arquitetura do Sistema
+## 🧱 Arquitetura do Sistema
 
 Organizado em camadas independentes:
 
@@ -71,43 +71,49 @@ View – todas as telas Swing
 
 Util – classes auxiliares (BackupBD, ConexaoBD, etc.)
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
+
+```
 /Banco II
-    ├── /BackupBancoAlimentado
-    │       └── BackupRuralmind.sql - Backup com alguns dados adicionados ao banco caso queiram testar
-    │
-    ├──/ScriptsSeparados
-    │      ├──TriggersProcedures.sql
-    │      ├──UsuariosPermissões.sql  -- Scripts isolados para visualização somente
-    │      └──ViewsIndices.sql
-    │
-    ├──Crição do banco completa.sql -- Script Definitivo com criação de banco e todos os scripts da pasta acima inclusos para facil execução
-    ├──Diagrama Relacional.vpp
-    └──Diagrama Relacional.png
-    
+├── BackupBancoAlimentado
+│ └── BackupRuralmind.sql
+│ (Backup com alguns dados adicionados para testes)
+│
+├── ScriptsSeparados
+│ ├── TriggersProcedures.sql
+│ ├── UsuariosPermissões.sql -- Scripts isolados para visualização
+│ └── ViewsIndices.sql
+│
+├── Criacao do banco completa.sql -- Script definitivo com criação e todos os scripts inclusos para execução unica
+│
+├── Diagrama Relacional.vpp
+└── Diagrama Relacional.png
+
 /Engenharia de Software
-    ├── Caso_de_Uso.pdf
-    ├── Atividades.pdf
-    ├── Estados.pdf
-    ├── Sequencia.pdf
-    ├── Classes.pdf
-    ├── DER.pdf
-    └── diagramas_imagens
-        ├── caso_de_uso.png
-        ├── atividades.png
-        ├── estados.png
-        ├── sequencia.png
-        ├── classes.png
-        └── der.png
+├── Caso_de_Uso.pdf
+├── Atividades.pdf
+├── Estados.pdf
+├── Sequencia.pdf
+├── Classes.pdf
+├── DER.pdf
+│
+└── diagramas_imagens
+├── caso_de_uso.png
+├── atividades.png
+├── estados.png
+├── sequencia.png
+├── classes.png
+└── der.png
 
 /Programação II
-    ├── Sistema
-    │   ├── src
-    │   ├── bin
-    │   ├── lib
-    │   └── (outros arquivos e diretórios do projeto)
-    └── JavaDoc
-        └── javadoc.zip
+├── Sistema
+│ ├── src
+│ ├── bin
+│ ├── lib
+│ └── (outros arquivos e diretórios do projeto)
+│
+└── JavaDoc
+└── javadoc.zip
 
 README.md
-
+```
