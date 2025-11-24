@@ -167,3 +167,73 @@ Pessoa → Cliente e Usuario
 ## 📌 Modelo Entidade-Relacionamento (DER)
 
 Mostra a estrutura lógica do banco, com tabelas, chaves primárias/estrangeiras e relacionamentos.
+
+# 🗄️ Documentação de Banco de Dados
+
+## 📦 Tabelas Principais
+
+usuario
+
+cliente
+
+fornecedor
+
+maquina
+
+venda
+
+venda_maquina
+
+log_auditoria
+
+Todas possuem comentários, constraints e padronização.
+
+## 🔐 Roles e Segurança
+
+Criados quatro papéis:
+
+administrador
+
+gerente
+
+vendedor
+
+consulta
+
+## 💡 Importante:
+O banco possui quatro papéis devido aos requisitos da disciplina,
+porém o sistema usa apenas dois perfis: admin e vendedor.
+
+## 🛠️ Triggers e Auditoria
+
+Tabela log_auditoria
+
+Função registrar_auditoria()
+
+Trigger trg_auditoria_venda
+
+Captura INSERT, UPDATE e DELETE em vendas
+
+Registra data, operação e tabela
+
+## 👁️ Views
+
+Views criadas para auxiliar relatórios, unir informações e facilitar consultas.
+
+## 📊 Índices
+
+Índices otimizam SELECTs frequentes e JOINs por:
+
+CPF
+
+login
+
+id
+
+chaves estrangeiras
+
+## ⚙️ Stored Procedures e Funções
+
+Funções PL/pgSQL auxiliares presentes no script principal.
+
+
