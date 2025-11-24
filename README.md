@@ -240,6 +240,8 @@ Funções PL/pgSQL auxiliares presentes no script principal.
 
 Essa é a parte mais importante para rodar corretamente em qualquer máquina:
 
+## Clone Esse Repositório
+
 ## 1️⃣ Instalar o PostgreSQL 17
 
 Instale normalmente
@@ -278,6 +280,7 @@ Ajustar:
 Ajustar os caminhos:
 
 C:/Program Files/PostgreSQL/17/bin/pg_dump.exe
+
 C:/Program Files/PostgreSQL/17/bin/psql.exe
 
 
@@ -323,11 +326,11 @@ Métodos sobrescritos e comportamentos sob demanda
 
 # 👨‍💻 Equipe de Desenvolvimento
 
-João Pedro Pereira Barpp
+João Pedro Pereira Barpp (https://github.com/JoaoPbz)
 
-Everton Nathan Dias de Oliveira
+Everton Nathan Dias de Oliveira (https://github.com/Evertondias2025)
 
-Douglas Gabriel Sierota
+Douglas Gabriel Sierota (https://github.com/DouglasSierota)
 
 # 📝 Considerações Finais
 
